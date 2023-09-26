@@ -1,0 +1,29 @@
+{
+  "name": "strapi-plugin-strapi-sso",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Strapi plugging for SSO",
+  "scripts": {
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "^4.13.7"
+  },
+  "dependencies": {
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "eb59ee29-d788-48f1-a972-3242fb07cfc3",
+    "name": "strapi-sso",
+    "displayName": "SSO",
+    "description": "Make your Strapi using SSO for community version",
+    "kind": "plugin"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

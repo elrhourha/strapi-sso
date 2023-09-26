@@ -1,3 +1,16 @@
 diff --git a/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js b/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
 old mode 100644
 new mode 100755
+index 66f21f3..6e4afb6
+--- a/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
++++ b/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
+@@ -144,6 +144,9 @@ const Login = ({ onSubmit, schema, children }) => {
+                 <Button fullWidth type="submit">
+                   {formatMessage({ id: 'Auth.form.button.login', defaultMessage: 'Login' })}
+                 </Button>
++                <Button fullWidth>
++                  {formatMessage({ id: 'Auth.form.button.sso', defaultMessage: 'SSO Login' })}
++                </Button>
+               </Flex>
+             </Form>
+           )}

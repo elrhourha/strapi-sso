@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-strapi-sso",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A Strapi plugging for SSO",
   "scripts": {},
   "devDependencies": {
@@ -10,6 +10,9 @@
   },
   "peerDependencies": {
     "@strapi/strapi": "^4.13.7"
+  },
+  "resolutions": {
+    "yargs": "^17.2.1"
   },
   "dependencies": {
   },

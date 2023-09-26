@@ -1,3 +1,4 @@
+import Initializer from './components/Initializer';
 import PluginIcon from './components/PluginIcon';
 import pluginPkg from '../../package.json';
 import pluginId from './pluginId';
@@ -21,6 +22,7 @@ export default {
     });
     app.registerPlugin({
       id: pluginId,
+      initializer: Initializer,
       name,
     });
   },

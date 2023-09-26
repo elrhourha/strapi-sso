@@ -1,5 +1,8 @@
 'use strict';
+
 // WARNING: the admin panel now uses webpack 5 to bundle the application.
+const path = require("path");
+
 module.exports = (config, webpack) => {
     // Note: we provide webpack above so you should not `require` it
     // Perform customizations to webpack configuration

@@ -1,6 +1,5 @@
 {
   "name": "strapi-plugin-strapi-sso",
-  "private": true,
   "version": "1.0.0",
   "description": "A Strapi plugging for SSO",
   "scripts": {

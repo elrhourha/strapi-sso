@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-strapi-sso",
-  "version": "1.4.0",
+  "version": "1.4.3",
   "description": "A Strapi plugging for SSO",
   "scripts": {},
   "devDependencies": {
@@ -15,6 +15,7 @@
     "yargs": "^17.2.1"
   },
   "dependencies": {
+    "axios": "^1.5.1"
   },
   "author": {
     "name": "A Strapi developer"

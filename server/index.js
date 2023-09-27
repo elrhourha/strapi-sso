@@ -15,6 +15,7 @@ module.exports = {
   destroy,
   config,
   controllers,
+  services,
   routes,
   policies,
 };

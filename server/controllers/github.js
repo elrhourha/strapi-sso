@@ -15,7 +15,7 @@ const OAUTH_GRANT_TYPE = 'authorization_code'
 const OAUTH_RESPONSE_TYPE = 'code'
 const OAUTH_SCOPE = ''
 async function githubSignIn(ctx) {
-  console.log(process.env)
+  console.log(strapi.config)
   const config = configValidation()
   const redirectUri = encodeURIComponent(config['GITHUB_OAUTH_REDIRECT_URI'])
   const url = `${OAUTH_ENDPOINT}?client_id=${config['GITHUB_OAUTH_CLIENT_ID']}&redirect_uri=${redirectUri}&scope=${OAUTH_SCOPE}&response_type=${OAUTH_RESPONSE_TYPE}`
@@ -24,6 +24,6 @@ async function githubSignIn(ctx) {
 }
 
 async function githubSignInCallback(ctx) {
-
+  ctx.send(ctx.query.code)
 }
 module.exports = { githubSignIn, githubSignInCallback }
